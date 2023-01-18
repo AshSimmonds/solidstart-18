@@ -29,25 +29,6 @@ export default function Root() {
 
 
 
-        {/* <Link rel="preconnect" href="https://api.fonts.coollabs.io" />
-        <Link
-          href="https://api.fonts.coollabs.io/css2?family=Montserrat&family=Rajdhani:wght@600&family=Orbitron:wght@600&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-
-        <Link rel="preconnect" href="https://fonts.googleapis.com" />
-        <Link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin="anonymous"
-        />
-        <Link
-          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
-          rel="stylesheet"
-        /> */}
-
-
-
         <link
           rel="preload"
           as="font"
