@@ -1,6 +1,6 @@
 {
-  "name": "solid-start-starter",
-  "version": "0.0.0",
+  "name": "solidstart-18",
+  "version": "0.0.1",
   "private": false,
   "description": "SolidJS project starter template with TypeScript, ESLint, TailwindCSS, tRPC and Prisma",
   "keywords": [
