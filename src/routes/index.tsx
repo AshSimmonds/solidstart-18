@@ -6,6 +6,7 @@ import { createRouteData, useRouteData } from "solid-start";
 import GithubIcon from "~/assets/github.svg";
 import SolidIcon from "~/assets/solid.svg";
 import { Counter } from "~/components/Counter";
+import Layout from "~/layouts/Layout";
 import { client } from "~/utils/trpc";
 
 export function routeData(_: RouteDataArgs) {
@@ -18,6 +19,8 @@ export default function Home() {
   const greeting = useRouteData<typeof routeData>();
 
   return (
+    <Layout hideHeader="" hideFooter="">
+
     <div class="flex h-screen flex-col items-center justify-center gap-4">
       <h1 class="text-center text-4xl font-bold text-gray-900">
         Solid Start Starter
@@ -48,5 +51,6 @@ export default function Home() {
         SolidStart Docs
       </A>
     </div>
+    </Layout>
   );
 }
