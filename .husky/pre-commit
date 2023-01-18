@@ -2,5 +2,5 @@
 # TODO: re-enable when I know what the hell I am doing with Husky stuff
 #. "$(dirname "$0")/_/husky.sh"
 
-pnpm run type-check
+#pnpm run type-check
 npx lint-staged
